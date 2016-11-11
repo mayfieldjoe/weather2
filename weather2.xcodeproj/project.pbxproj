@@ -14,6 +14,7 @@
 		CEB2C6E91DD4FA8800B459B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB2C6E71DD4FA8800B459B2 /* LaunchScreen.storyboard */; };
 		CEB2C6F41DD4FA8800B459B2 /* weather2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB2C6F31DD4FA8800B459B2 /* weather2Tests.swift */; };
 		CEB2C6FF1DD4FA8800B459B2 /* weather2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB2C6FE1DD4FA8800B459B2 /* weather2UITests.swift */; };
+		CEB2C70D1DD4FB7200B459B2 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB2C70C1DD4FB7200B459B2 /* WeatherGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEB2C6FA1DD4FA8800B459B2 /* weather2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weather2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB2C6FE1DD4FA8800B459B2 /* weather2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather2UITests.swift; sourceTree = "<group>"; };
 		CEB2C7001DD4FA8800B459B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB2C70C1DD4FB7200B459B2 /* WeatherGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CEB2C6E51DD4FA8800B459B2 /* Assets.xcassets */,
 				CEB2C6E71DD4FA8800B459B2 /* LaunchScreen.storyboard */,
 				CEB2C6EA1DD4FA8800B459B2 /* Info.plist */,
+				CEB2C70C1DD4FB7200B459B2 /* WeatherGetter.swift */,
 			);
 			path = weather2;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB2C6E11DD4FA8700B459B2 /* ViewController.swift in Sources */,
+				CEB2C70D1DD4FB7200B459B2 /* WeatherGetter.swift in Sources */,
 				CEB2C6DF1DD4FA8700B459B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dragontech.weather2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -426,7 +430,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dragontech.weather2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
