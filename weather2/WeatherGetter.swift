@@ -14,7 +14,7 @@ class WeatherGetter{
     private let openWeatherMapApiKey = "c9383d08891aeca72e2251735fde1036"
     
     
-    func getWeather(city: String, unit: String){
+    func getWeather(city: String){
         let session = NSURLSession.sharedSession()
         let weatherRequestURL = NSURL(string: "\(openWeatherMapBaseURL)?APPID=\(openWeatherMapApiKey)&q=\(city)")!
         
